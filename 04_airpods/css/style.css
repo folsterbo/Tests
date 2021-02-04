@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size: 10px;
+}
+body{
+	font-family: 'Inter', sans-serif;
+}
+.intro{
+	height: 100vh;
+}
+.intro video {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.intro h1{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	font-size: 8rem;
+	color: darkslategray;
+}
+section{
+	height: 100vh;
+	color: darkslategray;
+}
+section h1{
+	padding-top: 30rem;
+	text-align: center;
+	font-size: 8rem;
+}
